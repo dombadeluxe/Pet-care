@@ -1,0 +1,180 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; }
+
+.last {
+  clear: both; }
+
+.head {
+  background-image: url(img/front.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat; }
+  .head .head-h1 {
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 250px;
+    color: #f1f1f1; }
+  .head .food-all {
+    text-align: center; }
+  .head .food-all-a {
+    background-color: rgba(51, 51, 51, 0.5);
+    color: #f1f1f1;
+    border-radius: 5px 5px 0px 0px;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 50px 50px;
+    padding: 0px 50px; }
+  .head .food-all-a:hover {
+    background-color: rgba(202, 145, 82, 0.5);
+    transition: 0.5s;
+    color: #f1f1f1;
+    text-decoration: none; }
+
+.pre-center {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-image: url("img/pow.jpg");
+  background-size: 200px;
+  margin: 60px 190px;
+  background-repeat: no-repeat;
+  text-align: center; }
+  @media only screen and (max-width: 1600px) {
+    .pre-center {
+      background-size: 130px; } }
+  .pre-center .pre-center-text {
+    font-size: 28px; }
+    @media only screen and (max-width: 1600px) {
+      .pre-center .pre-center-text {
+        font-size: 26px; } }
+
+.center {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  /* Change the link color on hover */ }
+  .center .center-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; }
+  .center .center-li {
+    float: left; }
+  .center .center-a {
+    display: block;
+    color: #ca9152;
+    text-align: center;
+    padding: 14px 16px;
+    margin: 0px 106px;
+    text-decoration: none;
+    border-bottom: 1px solid #ca9152; }
+    @media only screen and (max-width: 1600px) {
+      .center .center-a {
+        margin: 0px 50px;
+        font-size: 16px; } }
+  .center .center-a:hover {
+    background-color: rgba(202, 145, 82, 0.5);
+    transition: 0.5s;
+    border-bottom: 1px solid #ca9152;
+    color: #333333; }
+
+.first-footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-image: linear-gradient(rgba(202, 145, 82, 0.5), rgba(17, 17, 17, 0.5)), url("img/eat.jpg");
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat; }
+  .first-footer .sing-up {
+    width: 900px;
+    float: left; }
+  .first-footer .sing-up-h2 {
+    color: #f1f1f1;
+    margin: 0px 110px; }
+  .first-footer .sing-up-p {
+    color: #f1f1f1;
+    margin: 10px 110px; }
+  .first-footer .last {
+    margin-bottom: 50px; }
+
+.footer {
+  background-color: #333333;
+  padding-top: 60px;
+  padding-bottom: 60px; }
+  .footer .footer-text {
+    width: 960px;
+    margin: auto;
+    border: 1px solid rgba(202, 145, 82, 0.5); }
+  .footer .footer-ul {
+    width: 200px;
+    list-style-type: none;
+    float: left; }
+  .footer .footer-li {
+    padding: 5px 0px; }
+  .footer .footer-a {
+    text-decoration: none;
+    color: #f1f1f1;
+    border-bottom: 1px solid rgba(202, 145, 82, 0.5); }
+  .footer .footer-a:hover {
+    background-color: rgba(202, 145, 82, 0.5);
+    transition: 0.5s; }
+
+.forms {
+  background-color: rgba(51, 51, 51, 0.5);
+  border: 1px solid rgba(202, 145, 82, 0.5);
+  color: #f1f1f1;
+  border-radius: 5px;
+  width: 400px;
+  margin: 0px 1200px;
+  text-align: center;
+  padding: 40px 0px; }
+  @media only screen and (max-width: 1600px) {
+    .forms {
+      background-color: rgba(51, 51, 51, 0.5);
+      border: 1px solid rgba(202, 145, 82, 0.5);
+      color: #f1f1f1;
+      border-radius: 5px;
+      width: 400px;
+      margin: 0px 1070px;
+      text-align: center;
+      padding: 40px 0px; } }
+
+.buttons {
+  margin: 0px 110px;
+  text-decoration: none;
+  padding: 5px 10px;
+  background-color: rgba(51, 51, 51, 0.5);
+  border: 1px solid rgba(202, 145, 82, 0.5);
+  color: #f1f1f1; }
+
+.buttons:hover {
+  background-color: rgba(202, 145, 82, 0.5);
+  transition: 0.5s; }
+
+.navigation {
+  background-color: rgba(51, 51, 51, 0.5);
+  margin: auto;
+  text-align: center; }
+
+.nav-ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; }
+
+.nav-li {
+  float: left; }
+
+.nav-a {
+  display: block;
+  color: #f1f1f1;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-bottom: 2px solid transparent; }
+
+/* Change the link color on hover */
+.nav-a:hover {
+  background-color: rgba(202, 145, 82, 0.5);
+  border-bottom: 2px solid #ca9152; }
+
+/*# sourceMappingURL=style.css.map */

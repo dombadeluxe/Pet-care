@@ -1,0 +1,15 @@
+@mixin scale {
+	padding-top: 60px;
+	padding-bottom: 60px;
+} 
+
+@mixin background {
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+@mixin colorhover {
+	background-color: $primaryyellow;
+	transition: 0.5s;
+}
+

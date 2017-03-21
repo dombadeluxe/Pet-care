@@ -1,0 +1,22 @@
+.first-footer {
+    @include scale;
+	background-image: linear-gradient(rgba(202,145,82,0.5), rgba(17, 17, 17, 0.5)),
+    url("img/eat.jpg");
+    background-position: center;
+    @include background;
+	.sing-up{
+		width: 900px;
+		float: left;
+	}
+	.sing-up-h2 {
+		color: $fontcolor;
+		margin: 0px 110px;
+	}
+	.sing-up-p {
+		color: $fontcolor;
+		margin: 10px 110px;
+	}
+	.last {
+		margin-bottom: 50px;
+	}
+}

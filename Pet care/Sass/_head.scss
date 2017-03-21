@@ -1,0 +1,28 @@
+.head {
+		background-image: url(img/front.jpg);
+		@include background;
+	.head-h1 {
+		text-align: center;
+		margin-top: 150px;
+		margin-bottom: 250px;
+		color: $fontcolor;
+	}
+	.food-all{
+		text-align: center;
+	}
+	.food-all-a {
+		background-color: rgba(51, 51, 51,0.5);
+		color: $fontcolor;
+		border-radius: 5px 5px 0px 0px;
+		text-decoration: none;
+		font-size: 18px;
+		margin: 50px 50px;
+		padding: 0px 50px;
+	}
+	.food-all-a:hover {
+		@include colorhover;
+		color: $fontcolor;
+		text-decoration: none;
+	}	
+
+}

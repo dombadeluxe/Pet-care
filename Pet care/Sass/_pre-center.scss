@@ -1,0 +1,17 @@
+.pre-center {
+    @include scale;
+	background-image: url("img/pow.jpg");
+	background-size: 200px;
+	margin: 60px 190px;
+	background-repeat: no-repeat;
+	text-align: center;
+	@media only screen and (max-width: 1600px){
+		background-size: 130px;
+	}
+	.pre-center-text {
+		font-size: 28px;
+		@media only screen and (max-width: 1600px){
+			font-size: 26px;
+		}
+	}
+}

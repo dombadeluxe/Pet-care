@@ -1,0 +1,27 @@
+ 
+
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif
+}
+
+.last {
+clear: both;
+}
+
+
+@import "mixin";
+@import "variables.colors"; 
+@import "head";
+@import "pre-center";
+@import "center";
+@import "first-footer";
+@import "footer";
+@import "forms";
+@import "buttons";
+@import "navigation"
+
+
+
+ 
